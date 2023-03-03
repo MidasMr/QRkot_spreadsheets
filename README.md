@@ -1,7 +1,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git@github.com:MidasMr/QRkot_spreadsheets.git
+git clone git@github.com:MidasMr/QRkot_spreadsheets.git
 ```
 
 ```

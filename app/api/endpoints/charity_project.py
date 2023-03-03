@@ -58,17 +58,6 @@ async def get_all_charity_projects(
     return await charity_project_crud.get_multi(session)
 
 
-@router.get(
-    '/closed',
-    response_model=List[CharityProjectDB],
-    response_model_exclude_none=True,
-)
-async def get_closed_charity_projects(
-        session: AsyncSession = Depends(get_async_session),
-):
-    return await charity_project_crud.get_projects_by_completion_rate(session)
-
-
 @router.patch(
     '/{project_id}',
     response_model=CharityProjectDB,
