@@ -10,7 +10,7 @@ SPREADSHEET_TITLE = 'Отчет от {}'
 ROWS = 100
 COLUMNS = 3
 
-SPREADSHEET_BODY = dict( 
+SPREADSHEET_BODY = dict(
     properties=dict(
         title='',
         locale='ru_RU',
@@ -27,10 +27,10 @@ SPREADSHEET_BODY = dict(
 )
 
 TABLE_HEAD = [
-        ['Отчет от', ''],
-        ['Топ проектов по скорости закрытия'],
-        ['Название проекта', 'Время сбора', 'Описание']
-    ]
+    ['Отчет от', ''],
+    ['Топ проектов по скорости закрытия'],
+    ['Название проекта', 'Время сбора', 'Описание']
+]
 
 FORMAT = "%Y/%m/%d %H:%M:%S"
 
